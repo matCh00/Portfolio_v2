@@ -1,0 +1,64 @@
+/* główny CSS */
+
+
+/* zmienne: https://colorhunt.co/palettes/dark */
+:root {
+  --color-background: #03001C;
+  --color-neutral: #301E67;
+  --color-primary: #EEEEEE;
+  --color-secondary: #00ADB5;
+  --ff: "Lato", sans-serif;
+  --fw: 500;
+}
+
+
+/* główne */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  /* background: rgb(0 100 0 / 0.05) !important; */
+}
+
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: var(--ff);
+  font-weight: var(--fw);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+
+  background: var(--color-background);
+  color: var(--color-primary);
+
+  font-size: 1.1rem;
+}
+
+
+/* pomocnicze */
+.bg-neutral {
+  background: var(--color-neutral);
+}
+.bg-primary {
+  background: var(--color-primary);
+}
+.clr-neutral {
+  color: var(--color-neutral);
+}
+.clr-primary {
+  color: var(--color-primary);
+}
+.clr-secondary {
+  color: var(--color-secondary);
+}
