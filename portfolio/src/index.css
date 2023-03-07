@@ -4,7 +4,8 @@
 /* zmienne: https://colorhunt.co/palettes/dark */
 :root {
   --color-background: #03001C;
-  --color-neutral: #301E67;
+  --color-neutral: #301e67;
+  --color-neutral-blur: rgba(48, 30, 103, 0.2);
   --color-primary: #EEEEEE;
   --color-secondary: #00ADB5;
   --ff: "Lato", sans-serif;
@@ -20,14 +21,14 @@
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
+  outline-color: transparent;
   text-decoration: none;
   list-style: none;
   /* background: rgb(0 100 0 / 0.05) !important; */
 }
 
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
@@ -61,4 +62,66 @@ body {
 }
 .clr-secondary {
   color: var(--color-secondary);
+}
+
+
+/* sekcje */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  section {
+    padding: 4rem 5rem;
+  }
+  section:last-of-type {
+    padding-bottom: 8rem;
+  }
+  section:first-of-type {
+    padding-top: 8rem;
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  section {
+    padding: 4rem 3rem;
+  }
+  section:last-of-type {
+    padding-bottom: 8rem;
+  }
+  section:first-of-type {
+    padding-top: 8rem;
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  section {
+    padding: 3rem 2rem;
+  }
+  section:last-of-type {
+    padding-bottom: 6rem;
+  }
+  section:first-of-type {
+    padding-top: 6rem;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  section {
+    padding: 3rem 1rem;
+  }
+  section:last-of-type {
+    padding-bottom: 6rem;
+  }
+  section:first-of-type {
+    padding-top: 6rem;
+  }
 }

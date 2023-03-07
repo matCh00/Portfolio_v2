@@ -5,9 +5,9 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <section>
+    <section id='contact'>
 
-      Contact
+      Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias rerum assumenda, dolore maxime cumque, placeat non atque praesentium accusamus excepturi voluptate quas porro eos, quibusdam quo modi tempora sunt?
       
     </section>
   )

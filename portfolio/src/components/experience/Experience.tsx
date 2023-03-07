@@ -5,9 +5,9 @@ import './experience.css';
 
 const Experience = () => {
   return (
-    <section>
+    <section id='experience'>
       
-      Experience
+      Experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus similique ducimus quidem, nemo quod quas qui dolorem ipsa ad laborum esse harum facere earum nesciunt, ab excepturi deserunt ut!
       
     </section>
   )

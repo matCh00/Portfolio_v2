@@ -1,0 +1,139 @@
+.desktop {  
+  position: relative;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+  background: var(--color-neutral);
+
+  height: 5rem;
+}
+
+.desktop > a {
+  color: var(--color-primary);
+}
+
+.desktop > a:hover {
+  color: var(--color-secondary);
+}
+
+.desktop > a:focus-within {
+  color: var(--color-secondary);
+}
+
+
+.mobile {
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+
+  display: flex;
+
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 3rem;
+
+  transform: translateX(-50%);
+
+  background: var(--color-neutral-blur);
+  backdrop-filter: blur(1rem);
+}
+
+.mobile > a {
+  font-size: 1.3rem;
+
+  display: flex;
+
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.mobile > a:hover {
+  color: var(--color-secondary);
+}
+
+.mobile > a:focus-within {
+  color: var(--color-secondary);
+}
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  section {
+    padding: 4rem 5rem;
+  }
+  section:last-of-type {
+    padding-bottom: 8rem;
+  }
+  section:first-of-type {
+    padding-top: 8rem;
+  }
+  .desktop {
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  section {
+    padding: 4rem 3rem;
+  }
+  section:last-of-type {
+    padding-bottom: 8rem;
+  }
+  section:first-of-type {
+    padding-top: 8rem;
+  }
+  .desktop {
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  section {
+    padding: 3rem 2rem;
+  }
+  section:last-of-type {
+    padding-bottom: 6rem;
+  }
+  section:first-of-type {
+    padding-top: 6rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  section {
+    padding: 3rem 1rem;
+  }
+  section:last-of-type {
+    padding-bottom: 6rem;
+  }
+  section:first-of-type {
+    padding-top: 6rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+}

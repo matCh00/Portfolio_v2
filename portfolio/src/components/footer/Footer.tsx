@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer>
       
-      Footer
-      
+      <small>&copy; Mateusz Chalik. Wszelkie prawa zastrzeżone.</small>
+
     </footer>
   )
 };

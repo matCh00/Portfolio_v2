@@ -5,9 +5,9 @@ import './services.css';
 
 const Services = () => {
   return (
-    <section>
+    <section id='services'>
       
-      Services
+      Services Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste obcaecati inventore soluta incidunt reiciendis eligendi debitis deserunt consequatur explicabo, ipsum minus libero repellat illum totam consequuntur maxime nostrum nemo quidem?
       
     </section>
   )
