@@ -16,7 +16,7 @@
 
 .desktop a {
   color: var(--color-neutral-light);
-  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .desktop a:hover {
