@@ -4,9 +4,11 @@
 /* zmienne: https://colorhunt.co/palettes/dark */
 :root {
   --color-background: #03001C;
-  --color-neutral: #301e67;
+  --color-neutral: hsl(255, 55%, 26%);
+  --color-neutral-light: hsl(255, 55%, 56%);
   --color-neutral-blur: rgba(48, 30, 103, 0.2);
   --color-primary: #EEEEEE;
+  --color-primary-dark: hsl(0, 0%, 73%);
   --color-secondary: #00ADB5;
   --ff: "Lato", sans-serif;
   --fw: 500;
@@ -32,6 +34,10 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 body {
   font-family: var(--ff);
@@ -45,6 +51,13 @@ body {
 
   font-size: 1.1rem;
 }
+
+
+/* brak borderu po naciśnięciu na mobilkach */
+input, textarea, button, select, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 
 
 /* pomocnicze */
@@ -71,6 +84,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: var(--color-primary);
 }
 
 

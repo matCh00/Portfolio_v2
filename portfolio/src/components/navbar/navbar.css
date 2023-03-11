@@ -2,32 +2,36 @@
   position: relative;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 
-  background: var(--color-neutral);
+  margin-inline: 2rem;
+
+  background: var(--color-background);
+  color: var(--color-neutral-light);
 
   height: 5rem;
 }
 
-.desktop > a {
-  color: var(--color-primary);
+.desktop a {
+  color: var(--color-neutral-light);
+  margin-right: 2rem;
 }
 
-.desktop > a:hover {
+.desktop a:hover {
   color: var(--color-secondary);
 }
 
-.desktop > a:focus-within {
+/* .desktop a:focus-within {
   color: var(--color-secondary);
-}
+} */
 
 
 .mobile {
   position: fixed;
   left: 50%;
-  bottom: 2rem;
+  bottom: 4rem;
 
   display: flex;
 
@@ -38,15 +42,15 @@
   transform: translateX(-50%);
 
   background: var(--color-neutral-blur);
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1.5rem);
 }
 
 .mobile > a {
-  font-size: 1.3rem;
+  font-size: 3rem;
 
   display: flex;
 
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border-radius: 50%;
 
   background: transparent;
@@ -57,9 +61,9 @@
   color: var(--color-secondary);
 }
 
-.mobile > a:focus-within {
+/* .mobile > a:focus-within {
   color: var(--color-secondary);
-}
+} */
 
 
 /* szeroki monitor */
