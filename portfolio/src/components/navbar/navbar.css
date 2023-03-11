@@ -9,7 +9,7 @@
   margin-inline: 2rem;
 
   background: var(--color-background);
-  color: var(--color-neutral-light);
+  color: var(--color-secondary);
 
   height: 5rem;
 }
@@ -68,15 +68,6 @@
 
 /* szeroki monitor */
 @media screen and (width > 82rem) {
-  section {
-    padding: 4rem 5rem;
-  }
-  section:last-of-type {
-    padding-bottom: 8rem;
-  }
-  section:first-of-type {
-    padding-top: 8rem;
-  }
   .desktop {
     display: flex;
   }
@@ -87,15 +78,6 @@
 
 /* zwykły monitor */
 @media screen and (width <= 82rem) {
-  section {
-    padding: 4rem 3rem;
-  }
-  section:last-of-type {
-    padding-bottom: 8rem;
-  }
-  section:first-of-type {
-    padding-top: 8rem;
-  }
   .desktop {
     display: flex;
   }
@@ -106,15 +88,6 @@
 
 /* tablety */
 @media screen and (width <= 62rem) {
-  section {
-    padding: 3rem 2rem;
-  }
-  section:last-of-type {
-    padding-bottom: 6rem;
-  }
-  section:first-of-type {
-    padding-top: 6rem;
-  }
   .desktop {
     display: none;
   }
@@ -125,15 +98,6 @@
 
 /* smartfony */
 @media screen and (width <= 43rem) {
-  section {
-    padding: 3rem 1rem;
-  }
-  section:last-of-type {
-    padding-bottom: 6rem;
-  }
-  section:first-of-type {
-    padding-top: 6rem;
-  }
   .desktop {
     display: none;
   }

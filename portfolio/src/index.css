@@ -97,7 +97,8 @@ section {
     padding-bottom: 8rem;
   }
   section:first-of-type {
-    padding-top: 8rem;
+    padding-block: 6rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -110,7 +111,8 @@ section {
     padding-bottom: 8rem;
   }
   section:first-of-type {
-    padding-top: 8rem;
+    padding-block: 6rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -123,7 +125,8 @@ section {
     padding-bottom: 6rem;
   }
   section:first-of-type {
-    padding-top: 6rem;
+    padding-block: 4rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -136,6 +139,7 @@ section {
     padding-bottom: 6rem;
   }
   section:first-of-type {
-    padding-top: 6rem;
+    padding-block: 4rem;
+    margin-bottom: 1rem;
   }
 }
