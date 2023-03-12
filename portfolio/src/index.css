@@ -88,10 +88,15 @@ section {
   color: var(--color-primary);
 }
 
+.section-header {
+  margin-bottom: 3rem;
+}
+
 
 /* kontener */
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -101,28 +106,32 @@ section {
 .container h4 {
   font-size: 1.1em;
   color: var(--color-primary-dark);
+  white-space: nowrap;
 }
 
 .container h1 {
   font-size: 1.7em;
+  color: var(--color-secondary);
+  white-space: nowrap;
 }
 
 .container h3 {
   font-size: 1.2em;
-  color: var(--color-secondary);
+  color: var(--color-primary);
+  white-space: nowrap;
 }
 
 
 /* szeroki monitor */
 @media screen and (width > 82rem) {
   section {
-    padding: 4rem 5rem;
+    padding: 6rem 4rem;
   }
   section:last-of-type {
-    padding-bottom: 8rem;
+    padding-bottom: 12rem;
   }
   section:first-of-type {
-    padding-block: 6rem;
+    padding-block: 8rem;
     margin-bottom: 2rem;
   }
   .container {
@@ -133,13 +142,13 @@ section {
 /* zwykły monitor */
 @media screen and (width <= 82rem) {
   section {
-    padding: 4rem 3rem;
+    padding: 6rem 3rem;
   }
   section:last-of-type {
-    padding-bottom: 8rem;
+    padding-bottom: 12rem;
   }
   section:first-of-type {
-    padding-block: 6rem;
+    padding-block: 8rem;
     margin-bottom: 2rem;
   }
   .container {
@@ -150,13 +159,13 @@ section {
 /* tablety */
 @media screen and (width <= 62rem) {
   section {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
   }
   section:last-of-type {
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
   }
   section:first-of-type {
-    padding-block: 4rem;
+    padding-block: 5rem;
     margin-bottom: 1rem;
   }
   .container {
@@ -167,13 +176,13 @@ section {
 /* smartfony */
 @media screen and (width <= 43rem) {
   section {
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
   }
   section:last-of-type {
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
   }
   section:first-of-type {
-    padding-block: 4rem;
+    padding-block: 5rem;
     margin-bottom: 1rem;
   }
   .container {

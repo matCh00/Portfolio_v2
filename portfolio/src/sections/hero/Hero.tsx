@@ -14,14 +14,16 @@ const Hero = () => {
 
         <img src={ME} alt="me" className='me-img'/>
 
-        <div className='hero-content'>
-          <h4>Cześć! Nazywam się</h4>
-          <h1>Mateusz</h1>
-          <h3>Jestem frontend developerem</h3>
-
+        <div>
+          <div className="section-header">
+            <h4>Cześć! Nazywam się</h4>
+            <h1>Mateusz</h1>
+            <h3>Jestem frontend developerem</h3>
+          </div>
+          
           <Actions />
         </div>
-
+        
         <Socials />
    
       </div>

@@ -7,8 +7,17 @@ const Experience = () => {
   return (
     <section id='experience'>
       
-      Experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus similique ducimus quidem, nemo quod quas qui dolorem ipsa ad laborum esse harum facere earum nesciunt, ab excepturi deserunt ut!
-      
+      <div className="container">
+
+        <div className="section-header">
+          <h4>Co potrafię</h4>
+          <h1>Doświadczenie</h1>
+        </div>
+
+        Experience Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+
+      </div>  
+
     </section>
   )
 };
