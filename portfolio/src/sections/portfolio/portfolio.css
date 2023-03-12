@@ -1,3 +1,32 @@
 #portfolio {
   background: linear-gradient(45deg, var(--color-background), var(--color-neutral-dark), var(--color-background));
 }
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  #portfolio {
+    margin-block: 6rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  #portfolio {
+    margin-block: 5rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  #portfolio {
+    margin-block: 4rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  #portfolio {
+    margin-block: 3rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}

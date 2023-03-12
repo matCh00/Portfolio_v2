@@ -11,7 +11,7 @@
   background: var(--color-background);
   color: var(--color-secondary);
 
-  height: 5rem;
+  height: 5rem;  /* wysokość */
 }
 
 .desktop a {
@@ -23,20 +23,13 @@
   color: var(--color-secondary);
 }
 
-/* .desktop a:focus-within {
-  color: var(--color-secondary);
-} */
-
 
 .mobile {
   position: fixed;
   left: 50%;
-  bottom: 4rem;
 
   display: flex;
 
-  gap: 0.5rem;
-  padding: 0.5rem;
   border-radius: 3rem;
 
   transform: translateX(-50%);
@@ -46,11 +39,9 @@
 }
 
 .mobile > a {
-  font-size: 3rem;
-
   display: flex;
 
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 1rem;
   border-radius: 50%;
 
   background: transparent;
@@ -60,10 +51,6 @@
 .mobile > a:hover {
   color: var(--color-secondary);
 }
-
-/* .mobile > a:focus-within {
-  color: var(--color-secondary);
-} */
 
 
 /* szeroki monitor */
@@ -93,6 +80,7 @@
   }
   .mobile {
     display: flex;
+    bottom: 5rem;  /* odległość od dołu - wysokość footera */
   }
 }
 
@@ -103,5 +91,6 @@
   }
   .mobile {
     display: flex;
+    bottom: 3rem;  /* odległość od dołu - wysokość footera */
   }
 }

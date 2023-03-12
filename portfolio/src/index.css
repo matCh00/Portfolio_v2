@@ -8,6 +8,8 @@
   --color-neutral-light: hsl(255, 55%, 56%);
   --color-neutral-dark: hsl(255, 55%, 16%);
   --color-neutral-blur: rgba(48, 30, 103, 0.2);
+  --color-neutral-card: rgba(48, 30, 103, 0.3);
+  --color-neutral-card-dark: #03001C;
   --color-primary: #EEEEEE;
   --color-primary-dark: hsl(0, 0%, 73%);
   --color-secondary: #00ADB5;
@@ -49,8 +51,6 @@ body {
 
   background: var(--color-background);
   color: var(--color-primary);
-
-  font-size: 1.1rem;
 }
 
 
@@ -58,7 +58,6 @@ body {
 input, textarea, button, select, a {
   -webkit-tap-highlight-color: transparent;
 }
-
 
 
 /* pomocnicze */
@@ -89,7 +88,7 @@ section {
 }
 
 .section-header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;  /* odstęp pomiędzy nagłówkiem sekcji a jego contentem */
 }
 
 
@@ -104,89 +103,74 @@ section {
 
 
 .container h4 {
-  font-size: 1.1em;
   color: var(--color-primary-dark);
-  white-space: nowrap;
 }
 
 .container h1 {
-  font-size: 1.7em;
+  font-size: 2em;  /* h1 większe */
   color: var(--color-secondary);
-  white-space: nowrap;
 }
 
 .container h3 {
-  font-size: 1.2em;
   color: var(--color-primary);
-  white-space: nowrap;
 }
 
 
 /* szeroki monitor */
 @media screen and (width > 82rem) {
+  body {
+    font-size: 1.2rem;  /* większa czcionka */
+  }
   section {
-    padding: 6rem 4rem;
+    padding: 6rem 5rem;  /* padding sekcji */
   }
   section:last-of-type {
-    padding-bottom: 12rem;
-  }
-  section:first-of-type {
-    padding-block: 8rem;
-    margin-bottom: 2rem;
-  }
-  .container {
-    font-size: 1.2rem;
+    padding-bottom: 12rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
   }
 }
 
 /* zwykły monitor */
 @media screen and (width <= 82rem) {
+  body {
+    font-size: 1.1rem;  /* większa czcionka */
+  }
   section {
-    padding: 6rem 3rem;
+    padding: 5rem 4rem;  /* padding sekcji */
   }
   section:last-of-type {
-    padding-bottom: 12rem;
-  }
-  section:first-of-type {
-    padding-block: 8rem;
-    margin-bottom: 2rem;
-  }
-  .container {
-    font-size: 1rem;
+    padding-bottom: 12rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
   }
 }
 
 /* tablety */
 @media screen and (width <= 62rem) {
-  section {
-    padding: 4rem 2rem;
+  body {
+    font-size: 1.1rem;  /* większa czcionka */
   }
-  section:last-of-type {
-    padding-bottom: 8rem;
+  section {
+    padding: 4rem 3rem;  /* padding sekcji */
   }
   section:first-of-type {
-    padding-block: 5rem;
-    margin-bottom: 1rem;
+    padding-top: 0rem;  /* mniejszy górny padding */
   }
-  .container {
-    font-size: 2rem;
+  section:last-of-type {
+    padding-bottom: 8rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
   }
 }
 
 /* smartfony */
 @media screen and (width <= 43rem) {
-  section {
-    padding: 4rem 1rem;
+  body {
+    font-size: 0.8rem;  /* mniejsza czcionka */
   }
-  section:last-of-type {
-    padding-bottom: 8rem;
+  section {
+    padding: 3rem 2rem;  /* padding sekcji */
   }
   section:first-of-type {
-    padding-block: 5rem;
-    margin-bottom: 1rem;
+    padding-top: 0rem;  /* mniejszy górny padding */
   }
-  .container {
-    font-size: 2rem;
+  section:last-of-type {
+    padding-bottom: 6rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
   }
 }
 
@@ -202,7 +186,7 @@ section {
   white-space: nowrap;
   
   cursor: pointer;
-  transition: background-color 400ms ease
+  transition: background-color 400ms ease;  /* animacja */
 }
 
 .btn:hover {

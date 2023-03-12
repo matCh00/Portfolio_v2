@@ -1,0 +1,27 @@
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  #about {
+    padding-top: 9rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  #about {
+    padding-top: 7.5rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  #about {
+    padding-top: 6rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  #about {
+    padding-top: 4.5rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+}

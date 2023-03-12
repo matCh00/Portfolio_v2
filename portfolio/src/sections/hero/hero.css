@@ -1,6 +1,7 @@
 #hero {
   background: linear-gradient(45deg, var(--color-secondary), var(--color-neutral-light));
-  transition: height 400ms ease;
+
+  font-size: 1.1em;  /** powiększona czcionka */
 }
 
 
@@ -22,61 +23,45 @@
 }
 
 
-.me-img {
-  border-radius: 3rem;
-}
-
-
 /* szeroki monitor */
 @media screen and (width > 82rem) {
   #hero {
-    height: calc(100vh - 5rem);
-  }
-  .me-img {
-    height: calc(80vh - 5rem);
+    height: calc(100vh - 5rem);  /* 100vh - wysokość headera */
   }
 }
 
 /* zwykły monitor */
 @media screen and (width <= 82rem) {
   #hero {
-    height: calc(100vh - 5rem);
-  }
-  .me-img {
-    height: calc(80vh - 5rem);
+    height: calc(100vh - 5rem);  /* 100vh - wysokość headera */
   }
 }
 
 /* tablety */
 @media screen and (width <= 62rem) {
   #hero {
+    transition: height 200ms ease;  /* animacja */
     height: 100vh;
-    height: 100dvh;
-  }
-  .me-img {
-    height: 50vh;
+    height: 100dvh;  /* full wysokość bez górnego paska na mobilkach */
   }
   .container-hero {
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-    margin-bottom: 4rem;
   }
 }
 
 /* smartfony */
 @media screen and (width <= 43rem) {
   #hero {
+    transition: height 200ms ease;  /* animacja */
     height: 100vh;
-    height: 100dvh;
-  }
-  .me-img {
-    height: 50vh;
+    height: 100dvh;  /* full wysokość bez górnego paska na mobilkach */
+    padding-bottom: 5rem;  /* bardziej sciśnięty content */
   }
   .container-hero {
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-    margin-bottom: 4rem;
   }
 }

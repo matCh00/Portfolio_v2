@@ -2,9 +2,9 @@
 
 import React from 'react';
 import Actions from '../../components/Actions/Actions';
+import HeroPhoto from '../../components/HeroPhoto/HeroPhoto';
 import Socials from '../../components/Socials/Socials';
 import './hero.css';
-const ME = require("../../assets/personal/me2.jpg");
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
 
       <div className="container container-hero">
 
-        <img src={ME} alt="me" className='me-img'/>
+        <HeroPhoto />
 
         <div>
           <div className="section-header">

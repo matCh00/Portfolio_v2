@@ -1,5 +1,5 @@
 footer {  
-  font-size: 0.9em;
+  font-size: 0.8em;  /* mniejsza czcionka */
 
   display: flex;
   justify-content: space-around;
@@ -8,6 +8,33 @@ footer {
 
   background: var(--color-neutral);
   color: var(--color-primary-dark);
+}
 
-  height: 5rem;
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  footer {
+    height: 5rem;  /* wysokość footera */
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  footer {
+    height: 5rem;  /* wysokość footera */
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  footer {
+    height: 5rem;  /* wysokość footera */
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  footer {
+    height: 3rem;  /* wysokość footera */
+  }
 }

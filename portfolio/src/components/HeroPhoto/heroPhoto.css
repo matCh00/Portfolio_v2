@@ -1,0 +1,32 @@
+.hero-img {
+  border-radius: 3rem;
+}
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  .hero-img {
+    height: calc(80vh - 5rem);  /* 80vh - wysokość headera */
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  .hero-img {
+    height: calc(80vh - 5rem);  /* 80vh - wysokość headera */
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  .hero-img {
+    height: 50vh;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  .hero-img {
+    height: 50vh;
+  }
+}
