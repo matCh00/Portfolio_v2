@@ -1,0 +1,80 @@
+#hero {
+  background: linear-gradient(45deg, var(--color-secondary), var(--color-neutral-light));
+}
+
+
+.container-hero {
+  justify-content: space-evenly;
+}
+
+.container-hero h4 {
+  font-size: 1.1em;
+  color: var(--color-neutral-dark);
+}
+
+.container-hero h1 {
+  font-size: 1.7em;
+}
+
+.container-hero h3 {
+  font-size: 1.2em;
+  color: var(--color-neutral-dark);
+}
+
+
+.me-img {
+  border-radius: 3rem;
+}
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  #hero {
+    height: calc(100vh - 5rem);
+  }
+  .me-img {
+    height: calc(80vh - 5rem);
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  #hero {
+    height: calc(100vh - 5rem);
+  }
+  .me-img {
+    height: calc(80vh - 5rem);
+  }
+}
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  #hero {
+    height: 100vh;
+  }
+  .me-img {
+    height: 50vh;
+  }
+  .container-hero {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  #hero {
+    height: 100vh;
+  }
+  .me-img {
+    height: 50vh;
+  }
+  .container-hero {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-bottom: 4rem;
+  }
+}

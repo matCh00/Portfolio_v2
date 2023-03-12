@@ -18,9 +18,9 @@ const Navbar = () => {
         
           <a href="#about">About</a>
 
-          <a href="#portfolio">Portfolio</a>
-
           <a href="#experience">Experience</a>
+
+          <a href="#portfolio">Portfolio</a>
 
           <a href="#services">Services</a>
 
@@ -36,9 +36,9 @@ const Navbar = () => {
         
         <a href="#about"><AiOutlineUser/></a>
 
-        <a href="#portfolio"><AiOutlineFundProjectionScreen/></a>
-
         <a href="#experience"><AiOutlineStar/></a>
+
+        <a href="#portfolio"><AiOutlineFundProjectionScreen/></a>
 
         <a href="#services"><AiOutlineCustomerService/></a>
 

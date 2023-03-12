@@ -1,0 +1,37 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  right: 6rem;
+  top: 20vh;
+  
+  gap: 1rem;
+}
+
+
+.socials a {
+  font-size: 1.4em;
+
+  color: var(--color-background);
+}
+
+.socials a:hover {
+  color: var(--color-secondary);
+}
+
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  .socials {
+    display: none;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  .socials {
+    display: none;
+  }
+}
