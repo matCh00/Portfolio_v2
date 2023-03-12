@@ -9,7 +9,8 @@
   --color-neutral-dark: hsl(255, 55%, 16%);
   --color-neutral-blur: rgba(48, 30, 103, 0.2);
   --color-neutral-card: rgba(48, 30, 103, 0.3);
-  --color-neutral-card-dark: #03001C;
+  --color-neutral-card-dark: rgb(3, 0, 26);
+  --color-neutral-card-hover: hsl(247, 100%, 8%);
   --color-primary: #EEEEEE;
   --color-primary-dark: hsl(0, 0%, 73%);
   --color-secondary: #00ADB5;

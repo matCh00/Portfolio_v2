@@ -11,3 +11,8 @@
 .card1:hover {
   transform: perspective(3000px) rotateY(5deg);
 }
+
+.highlight:hover {
+  background: var(--color-neutral-card-hover);
+  border: 1px solid var(--color-secondary);
+}

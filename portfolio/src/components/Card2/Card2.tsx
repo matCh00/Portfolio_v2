@@ -7,14 +7,15 @@ type Props = {
   width?: string,
   padding?: string,
   background?: boolean,
+  highlight?: boolean,
   header: any,
   children: any,
 };
 
-const Card2 = ({width='50%', padding='1.5rem', background=true, header, children}: Props) => {
+const Card2 = ({width='50%', padding='1.5rem', background=true, highlight=false, header, children}: Props) => {
 
   return (
-    <div className='card2' style={{width: width}}>
+    <div className={`card2 ${highlight ? "highlight" : ""}`} style={{width: width}}>
       <div className="card2-header" style={{padding: padding, background: background ? 'var(--color-neutral)' : 'var(--color-neutral-blur)'}}>
         {header}
       </div>

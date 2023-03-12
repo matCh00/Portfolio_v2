@@ -7,18 +7,21 @@ type Props = {
   width?: string,
   padding?: string,
   gap?: string,
+  highlight?: boolean,
   headerPos?: 'top' | 'left' | 'right' | 'bottom',
   headerWidth?: string,
   header: any,
   children: any,
 };
 
-const Card3 = ({width='50%', padding='2rem', gap='1rem', headerPos='top', headerWidth='50%', header, children}: Props) => {
+const Card3 = ({
+  width='50%', padding='2rem', gap='1rem', highlight=false, 
+  headerPos='top', headerWidth='50%', header, children}: Props) => {
 
   const contentWidth = (100 - +headerWidth.replace('%','')) + '%';
 
   return (
-    <div className='card3' style={{width: width}}>
+    <div className={`card3 ${highlight ? "highlight" : ""}`} style={{width: width}}>
 
       {headerPos === 'left'
       ?
