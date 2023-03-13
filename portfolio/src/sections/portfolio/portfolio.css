@@ -1,5 +1,5 @@
 #portfolio {
-  background: linear-gradient(45deg, var(--color-background), var(--color-neutral-dark), var(--color-background));
+  background: linear-gradient(45deg, var(--color-neutral-darkest), var(--color-neutral-darker), var(--color-neutral-darkest));
 }
 
 

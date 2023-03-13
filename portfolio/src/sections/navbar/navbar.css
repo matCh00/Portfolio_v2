@@ -8,14 +8,14 @@
 
   margin-inline: 2rem;
 
-  background: var(--color-background);
+  background: var(--color-neutral-darkest);
   color: var(--color-secondary);
 
   height: 5rem;  /* wysokość */
 }
 
 .desktop a {
-  color: var(--color-neutral-light);
+  color: var(--color-neutral);
   margin-left: 2rem;
 }
 
@@ -34,7 +34,7 @@
 
   transform: translateX(-50%);
 
-  background: var(--color-neutral-blur);
+  background: var(--color-blur);
   backdrop-filter: blur(1.5rem);
 }
 

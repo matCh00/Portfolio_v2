@@ -15,8 +15,15 @@ type Props = {
 };
 
 const Card3 = ({
-  width='50%', padding='2rem', gap='1rem', highlight=false, 
-  headerPos='top', headerWidth='50%', header, children}: Props) => {
+  width='50%', 
+  padding='2rem', 
+  gap='1rem', 
+  highlight=false, 
+  headerPos='top', 
+  headerWidth='50%', 
+  header, 
+  children
+}: Props) => {
 
   const contentWidth = (100 - +headerWidth.replace('%','')) + '%';
 

@@ -1,12 +1,12 @@
 .card3 {
-  background: var(--color-neutral-card-dark);
+  background: var(--color-neutral-darkest);
 
   transform: 
     perspective(750px)
     translate3d(0px, -10px, -100px)
     rotateX(25deg)
     scale(0.95, 1);
-
+    
   transition: transform 400ms ease;
 
   border-radius: 1rem;
@@ -28,6 +28,6 @@
 }
 
 .highlight:hover {
-  background: var(--color-neutral-card-hover);
+  background: var(--color-neutral-darker);
   border: 1px solid var(--color-secondary);
 }

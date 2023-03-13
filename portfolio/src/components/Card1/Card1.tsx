@@ -10,7 +10,12 @@ type Props = {
   children: any,
 };
 
-const Card1 = ({width='50%', padding='1.5rem', highlight=false, children}: Props) => {
+const Card1 = ({
+  width='50%', 
+  padding='1.5rem', 
+  highlight=false, 
+  children
+}: Props) => {
 
   return (
     <div  className={`card1 ${highlight ? "highlight" : ""}`} style={{width: width, padding: padding}}>

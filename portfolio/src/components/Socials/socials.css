@@ -14,7 +14,7 @@
 .socials a {
   font-size: 1.4em;  /* większa czcionka */
 
-  color: var(--color-background);
+  color: var(--color-neutral-darkest);
 }
 
 .socials a:hover {

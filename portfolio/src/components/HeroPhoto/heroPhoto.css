@@ -1,19 +1,16 @@
-.hero-img {
-  border-radius: 3rem;
-}
-
-
 /* szeroki monitor */
 @media screen and (width > 82rem) {
   .hero-img {
-    height: calc(80vh - 5rem);  /* 80vh - wysokość headera */
+    height: calc(100vh - 5rem);  /* 80vh - wysokość headera */
+    transform:  translateY(6px);
   }
 }
 
 /* zwykły monitor */
 @media screen and (width <= 82rem) {
   .hero-img {
-    height: calc(80vh - 5rem);  /* 80vh - wysokość headera */
+    height: calc(100vh - 5rem);  /* 80vh - wysokość headera */
+    transform:  translateY(5px);
   }
 }
 
@@ -22,11 +19,19 @@
   .hero-img {
     height: 50vh;
   }
+  .image-cropper {
+    background: var(--color-neutral-darkest);
+    border-radius: 2rem;
+  }
 }
 
 /* smartfony */
 @media screen and (width <= 43rem) {
   .hero-img {
     height: 50vh;
+  }
+  .image-cropper {
+    background: var(--color-neutral-darkest);
+    border-radius: 2rem;
   }
 }

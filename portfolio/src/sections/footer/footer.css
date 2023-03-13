@@ -6,7 +6,7 @@ footer {
   align-items: center;
   text-align: center;
 
-  background: var(--color-neutral);
+  background: var(--color-neutral-dark);
   color: var(--color-primary-dark);
 }
 

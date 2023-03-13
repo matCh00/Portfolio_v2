@@ -1,6 +1,6 @@
 import React from 'react';
 import './heroPhoto.css';
-const ME = require("../../assets/personal/me2.jpg");
+const ME = require("../../assets/personal/me.png");
 
 /** zdjęcie w sekcji Hero */
 

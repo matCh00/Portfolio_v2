@@ -13,18 +13,16 @@ const Navbar = () => {
 
         <h2>Mateusz Chalik</h2>
 
-        <div>
-          <a href="#">Hero</a>
-        
-          <a href="#about">About</a>
+        <div>        
+          <a href="#about">O mnie</a>
 
-          <a href="#experience">Experience</a>
+          <a href="#experience">Doświadczenie</a>
 
           <a href="#portfolio">Portfolio</a>
 
-          <a href="#services">Services</a>
+          <a href="#services">Usługi</a>
 
-          <a href="#contact">Contact</a>
+          <a href="#contact">Kontakt</a>
         </div>
 
       </nav>

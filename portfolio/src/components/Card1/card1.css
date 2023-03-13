@@ -1,5 +1,5 @@
 .card1 {
-  background: var(--color-neutral-card);
+  background: var(--color-card);
 
   transform: perspective(1500px) rotateY(10deg);
   transition: transform 400ms ease;
@@ -13,6 +13,6 @@
 }
 
 .highlight:hover {
-  background: var(--color-neutral-card-hover);
+  background: var(--color-neutral-darker);
   border: 1px solid var(--color-secondary);
 }
