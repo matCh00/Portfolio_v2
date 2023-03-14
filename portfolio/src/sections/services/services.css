@@ -1,0 +1,24 @@
+.services-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3rem;
+}
+
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  .services-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  .services-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

@@ -15,7 +15,7 @@ type Props = {
 };
 
 const Card3 = ({
-  width='50%', 
+  width='100%', 
   padding='2rem', 
   gap='1rem', 
   highlight=false, 

@@ -15,9 +15,23 @@ const Contact = () => {
           <h1>Kontakt</h1>
         </div>
 
-        <Card1>
-          Contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </Card1>
+        <div className="contact-content">
+          <Card1>
+            Contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Card1>
+
+          <Card1>
+            Contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Card1>
+
+          <Card1>
+            Contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Card1>
+
+          <Card1>
+            Contact Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Card1>
+        </div>
 
       </div> 
       

@@ -11,7 +11,7 @@ type Props = {
 };
 
 const Card1 = ({
-  width='50%', 
+  width='100%', 
   padding='1.5rem', 
   highlight=false, 
   children

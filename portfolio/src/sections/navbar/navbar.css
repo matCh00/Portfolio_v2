@@ -27,6 +27,7 @@
 .mobile {
   position: fixed;
   left: 50%;
+  z-index: 100;
 
   display: flex;
 

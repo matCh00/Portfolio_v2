@@ -1,0 +1,23 @@
+.contact-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 3rem;
+}
+
+
+/* tablety */
+@media screen and (width <= 62rem) {
+  .contact-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  .contact-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}

@@ -15,9 +15,15 @@ const About = () => {
           <h1>O mnie</h1>
         </div>
 
-        <Card1>
-          About Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
-        </Card1>
+        <div className="about-content">
+          <Card1>
+            About iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card1>
+
+          <Card1>
+            About iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card1>
+        </div>
 
       </div>
       

@@ -15,10 +15,16 @@ const Portfolio = () => {
           <h1>Portfolio</h1>
         </div>
 
-        <Card3 header={'Lorem ipsum dolor sit amet consectetur adipisicing elit'}>
-          Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
-        </Card3>
+        <div className="portfolio-content">
+          <Card3 header={'Lorem ipsum dolor sit amet consectetur adipisicing elit'}>
+            Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card3>
 
+          <Card3 header={'Lorem ipsum dolor sit amet consectetur adipisicing elit'}>
+            Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card3>
+        </div>
+        
       </div>  
 
     </section>

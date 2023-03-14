@@ -2,6 +2,13 @@
   background: linear-gradient(45deg, var(--color-neutral-darkest), var(--color-neutral-darker), var(--color-neutral-darkest));
 }
 
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3rem;
+}
+
 
 /* szeroki monitor */
 @media screen and (width > 82rem) {
@@ -22,11 +29,17 @@
   #portfolio {
     margin-block: 4rem;  /* powiększona przerwa pomiedzy sekcjami */
   }
+  .portfolio-content {
+    gap: 2rem;
+  }
 }
 
 /* smartfony */
 @media screen and (width <= 43rem) {
   #portfolio {
     margin-block: 3rem;  /* powiększona przerwa pomiedzy sekcjami */
+  }
+  .portfolio-content {
+    gap: 1.5rem;
   }
 }

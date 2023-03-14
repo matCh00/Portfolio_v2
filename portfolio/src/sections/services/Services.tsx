@@ -15,9 +15,19 @@ const Services = () => {
           <h1>Usługi</h1>
         </div>
 
-        <Card2 header={'Experience Lorem ipsum dolor'} lightHeader={false}>
-          Services Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
-        </Card2>
+        <div className="services-content">
+          <Card2 header={'Experience Lorem ipsum dolor'} lightHeader={false}>
+            Services Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card2>
+
+          <Card2 header={'Experience Lorem ipsum dolor'} lightHeader={false}>
+            Services Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card2>
+
+          <Card2 header={'Experience Lorem ipsum dolor'} lightHeader={false}>
+            Services Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tenetur est aut nostrum dignissimos incidunt excepturi laborum iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+          </Card2>
+        </div>
 
       </div> 
             

@@ -124,7 +124,7 @@ section {
     font-size: 1.2rem;  /* większa czcionka */
   }
   section {
-    padding: 6rem 5rem;  /* padding sekcji */
+    padding: 6rem 9rem;  /* padding sekcji */
   }
   section:last-of-type {
     padding-bottom: 12rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
@@ -137,7 +137,7 @@ section {
     font-size: 1.1rem;  /* większa czcionka */
   }
   section {
-    padding: 5rem 4rem;  /* padding sekcji */
+    padding: 5rem 6rem;  /* padding sekcji */
   }
   section:last-of-type {
     padding-bottom: 12rem;  /* odstęp pomiędzy ostatnią sekcją a footerem */
@@ -150,7 +150,7 @@ section {
     font-size: 1.1rem;  /* większa czcionka */
   }
   section {
-    padding: 4rem 3rem;  /* padding sekcji */
+    padding: 4rem 5rem;  /* padding sekcji */
   }
   section:first-of-type {
     padding-top: 0rem;  /* mniejszy górny padding */
@@ -166,7 +166,7 @@ section {
     font-size: 0.8rem;  /* mniejsza czcionka */
   }
   section {
-    padding: 3rem 2rem;  /* padding sekcji */
+    padding: 3rem 3rem;  /* padding sekcji */
   }
   section:first-of-type {
     padding-top: 0rem;  /* mniejszy górny padding */
