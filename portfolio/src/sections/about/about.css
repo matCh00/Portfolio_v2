@@ -1,9 +1,25 @@
 .about-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 
   gap: 3rem;
+  width: 100%;
+}
+
+
+.about-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+
+
+.about-content-card > .clr-secondary:first-child {
+  font-size: 1.5rem;
 }
 
 

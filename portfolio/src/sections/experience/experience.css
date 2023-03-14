@@ -1,24 +1,81 @@
 .experience-content {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "front"
+    "back"
+    "mob";
+
+  gap: 3rem;
+  width: 100%;
+}
+
+
+.experience-content-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  gap: 3rem;
+  gap: 1rem;
 }
 
+.experience-content-card > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.experience-content-card > p > .clr-secondary:first-child {
+  margin-right: 1rem;
+}
+
+
+/* deklaracje */
+.card2:nth-child(1) {
+  grid-area: front;
+}
+.card2:nth-child(2) {
+  grid-area: back;
+}
+.card2:nth-child(3) {
+  grid-area: mob;
+}
+
+
+/* szeroki monitor */
+@media screen and (width > 82rem) {
+  .experience-content {
+    grid-template-areas:
+      "front back mob";
+  }
+}
+
+/* zwykły monitor */
+@media screen and (width <= 82rem) {
+  .experience-content {
+    grid-template-areas:
+      "front back"
+      "front mob";
+  }
+}
 
 /* tablety */
 @media screen and (width <= 62rem) {
   .experience-content {
-    flex-direction: column;
-    gap: 2rem;
+    grid-template-areas:
+      "front back"
+      "front mob";
   }
 }
 
 /* smartfony */
 @media screen and (width <= 43rem) {
   .experience-content {
-    flex-direction: column;
-    gap: 1.5rem;
+    grid-template-areas:
+      "front"
+      "back"
+      "mob";
   }
 }

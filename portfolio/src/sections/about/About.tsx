@@ -3,8 +3,13 @@
 import React from 'react';
 import './about.css';
 import Card1 from './../../components/Card1/Card1';
+import {BiTimeFive} from 'react-icons/bi';
+import {AiOutlineFundProjectionScreen, AiFillHtml5} from 'react-icons/ai';
+import {FaAngular, FaReact, FaSitemap} from 'react-icons/fa';
+import {DiCss3} from 'react-icons/di';
 
 const About = () => {
+
   return (
     <section id='about'>
 
@@ -16,13 +21,33 @@ const About = () => {
         </div>
 
         <div className="about-content">
+
           <Card1>
-            About iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+            <div className="about-content-card">
+              <BiTimeFive className='clr-secondary'/>
+              <p>9 miesiecy doświadczenia w branży IT na stanowisku frontend developera</p>
+            </div>
           </Card1>
 
           <Card1>
-            About iusto. Aspernatur enim perspiciatis voluptatum. Unde officia deleniti eius ratione cupiditate earum molestias.
+            <div className="about-content-card">
+              <FaSitemap className='clr-secondary'/>
+              <div>
+                <p>
+                  Najczęściej używane technologie: <br/>
+                  <span style={{fontSize: '1.5rem'}}><FaAngular/> &nbsp; <FaReact/> &nbsp; <DiCss3/> &nbsp; <AiFillHtml5/></span>
+                </p>
+              </div>
+            </div>
           </Card1>
+
+          <Card1>
+            <div className="about-content-card">
+              <AiOutlineFundProjectionScreen className='clr-secondary'/>
+              <p>3 projekty komercyjne, praca inżynierska, kilka własnych projektów</p>
+            </div>
+          </Card1>
+          
         </div>
 
       </div>

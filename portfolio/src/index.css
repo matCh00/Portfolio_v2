@@ -75,6 +75,9 @@ input, textarea, button, select, a {
 .clr-primary {
   color: var(--color-primary);
 }
+.clr-primary-dark {
+  color: var(--color-primary-dark);
+}
 .clr-secondary {
   color: var(--color-secondary);
 }
