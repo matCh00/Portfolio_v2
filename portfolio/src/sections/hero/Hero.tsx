@@ -7,6 +7,7 @@ import Socials from '../../components/Socials/Socials';
 import './hero.css';
 
 const Hero = () => {
+  
   return (
     <section id='hero'>
 

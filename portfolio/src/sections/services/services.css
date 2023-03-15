@@ -1,9 +1,30 @@
 .services-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 
   gap: 3rem;
+}
+
+
+.services-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.services-content-card > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.services-content-card > p > .clr-secondary:first-child {
+  margin-right: 1rem;
 }
 
 

@@ -3,7 +3,8 @@
 import React from 'react';
 import Card2 from '../../components/Card2/Card2';
 import './experience.css';
-import {AiOutlineCheck, AiFillStar, AiOutlineStar} from 'react-icons/ai';
+import {AiFillStar, AiOutlineStar} from 'react-icons/ai';
+import {SlGraduation} from 'react-icons/sl';
 
 const Experience = () => {
 
@@ -45,7 +46,7 @@ const Experience = () => {
               {experienceFront.map(e => {
                 return (
                   <p key={e.key}>
-                    <AiOutlineCheck className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
+                    <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
                     {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
                     <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
                   </p>
@@ -59,7 +60,7 @@ const Experience = () => {
               {experienceBackend.map(e => {
                 return (
                   <p key={e.key}>
-                    <AiOutlineCheck className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
+                    <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
                     {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
                     <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
                   </p>
@@ -73,7 +74,7 @@ const Experience = () => {
               {experienceMobile.map(e => {
                 return (
                   <p key={e.key}>
-                    <AiOutlineCheck className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
+                    <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
                     {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
                     <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
                   </p>

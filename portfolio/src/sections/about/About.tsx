@@ -5,8 +5,9 @@ import './about.css';
 import Card1 from './../../components/Card1/Card1';
 import {BiTimeFive} from 'react-icons/bi';
 import {AiOutlineFundProjectionScreen, AiFillHtml5} from 'react-icons/ai';
-import {FaAngular, FaReact, FaSitemap} from 'react-icons/fa';
+import {FaAngular, FaReact} from 'react-icons/fa';
 import {DiCss3} from 'react-icons/di';
+import {CgCodeSlash} from 'react-icons/cg';
 
 const About = () => {
 
@@ -31,10 +32,10 @@ const About = () => {
 
           <Card1>
             <div className="about-content-card">
-              <FaSitemap className='clr-secondary'/>
+              <CgCodeSlash className='clr-secondary'/>
               <div>
                 <p>
-                  Najczęściej używane technologie: <br/>
+                  Najczęściej używane technologie <br/>
                   <span style={{fontSize: '1.5rem'}}><FaAngular/> &nbsp; <FaReact/> &nbsp; <DiCss3/> &nbsp; <AiFillHtml5/></span>
                 </p>
               </div>

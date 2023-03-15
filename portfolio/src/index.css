@@ -121,6 +121,16 @@ section {
 }
 
 
+/* link */
+a {
+  color: var(--color-secondary);
+  transition: color 300ms ease;
+}
+a:hover {
+  color: var(--color-primary);
+}
+
+
 /* szeroki monitor */
 @media screen and (width > 82rem) {
   body {

@@ -23,7 +23,7 @@ const Card2 = ({
 
   return (
     <div className={`card2 ${highlight ? "highlight" : ""}`} style={{width: width}}>
-      <div className="card2-header clr-secondary" style={{padding: padding, background: lightHeader ? 'var(--color-neutral-dark)' : 'var(--color-blur)'}}>
+      <div className="card2-header" style={{padding: padding, background: lightHeader ? 'var(--color-neutral-dark)' : 'var(--color-blur)'}}>
         {header}
       </div>
       <div className="card2-content" style={{padding: padding}}>
