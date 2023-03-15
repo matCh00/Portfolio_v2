@@ -2,11 +2,62 @@
   background: linear-gradient(45deg, var(--color-neutral-darkest), var(--color-neutral-darker), var(--color-neutral-darkest));
 }
 
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio-content {
   display: flex;
   flex-direction: column;
 
   gap: 3rem;
+}
+
+
+.portfolio-header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.html-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+
+.portfolio-img-container {
+  margin: 0 0.5rem;
+}
+
+.portfolio-img {
+  height: 25rem;
+  object-fit: contain;
+}
+
+
+.carousel.carousel-slider {
+  padding: 0 0 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+
+.carousel .control-dots .dot {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
 }
 
 

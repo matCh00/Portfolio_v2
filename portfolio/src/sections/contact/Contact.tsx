@@ -23,7 +23,7 @@ const Contact = () => {
 
           <Card1>
             <div className="contact-content-card">
-              <MdOutlineEmail className='clr-secondary'/>
+              <MdOutlineEmail className='bigger-icon'/>
               <h5>mateusz.chalik</h5>
               <a href="mailto:mateusz.chalik@gmail.com">Wyślij wiadomość</a>
             </div>
@@ -31,7 +31,7 @@ const Contact = () => {
 
           <Card1>
             <div className="contact-content-card">
-              <RiMessengerLine className='clr-secondary'/>
+              <RiMessengerLine className='bigger-icon'/>
               <h5>Mateusz Chalik</h5>
               <a href="https://m.me/mateusz.chalik">Wyślij wiadomość</a>
             </div>
@@ -39,7 +39,7 @@ const Contact = () => {
 
           <Card1>
             <div className="contact-content-card">
-              <BsLinkedin className='clr-secondary'/>
+              <BsLinkedin className='bigger-icon'/>
               <h5>Mateusz Chalik</h5>
               <a href="https://www.linkedin.com/in/mateusz-chalik-559813233/" target='_blank'>Zobacz profil</a>
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
 
           <Card1>
             <div className="contact-content-card">
-              <BsGithub className='clr-secondary'/>
+              <BsGithub className='bigger-icon'/>
               <h5>matCh00</h5>
               <a href="https://github.com/matCh00" target='_blank'>Zobacz profil</a>
             </div>

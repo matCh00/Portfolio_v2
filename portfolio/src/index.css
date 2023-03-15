@@ -131,6 +131,13 @@ a:hover {
 }
 
 
+/* ikony */
+.bigger-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
 /* szeroki monitor */
 @media screen and (width > 82rem) {
   body {

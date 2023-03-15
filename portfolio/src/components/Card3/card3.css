@@ -31,3 +31,11 @@
   background: var(--color-neutral-darker);
   border: 1px solid var(--color-secondary);
 }
+
+
+/* smartfony */
+@media screen and (width <= 43rem) {
+  .card3 {
+    transform: translate3d(0px, 0px, -200px);
+  }
+}
