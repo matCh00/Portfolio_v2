@@ -20,6 +20,10 @@
   font-size: 1.5rem;
 }
 
+.contact-content-card > h5 {
+  white-space: nowrap;
+}
+
 
 /* tablety */
 @media screen and (width <= 62rem) {

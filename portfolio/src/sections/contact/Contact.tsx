@@ -24,7 +24,7 @@ const Contact = () => {
           <Card1>
             <div className="contact-content-card">
               <MdOutlineEmail className='clr-secondary'/>
-              <h5>mateusz.chalik@gmail.com</h5>
+              <h5>mateusz.chalik</h5>
               <a href="mailto:mateusz.chalik@gmail.com">Wyślij wiadomość</a>
             </div>
           </Card1>
