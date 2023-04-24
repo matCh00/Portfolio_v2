@@ -36,7 +36,7 @@
 
 
 .portfolio-img-container {
-  margin: 0 0.5rem;
+  margin: 0 3rem;
 }
 
 .portfolio-img {
@@ -83,6 +83,10 @@
   .portfolio-content {
     gap: 2rem;
   }
+
+  .carousel {
+    display: none;
+  }
 }
 
 /* smartfony */
@@ -92,5 +96,9 @@
   }
   .portfolio-content {
     gap: 1.5rem;
+  }
+
+  .carousel {
+    display: none;
   }
 }

@@ -8,7 +8,7 @@ import {BsChatQuote} from 'react-icons/bs';
 const Navbar = () => {
 
   return (
-    <>
+    <div className='hidden'>
       <nav className='desktop'>
 
         <h2>Mateusz Chalik</h2>
@@ -44,7 +44,7 @@ const Navbar = () => {
         
       </nav>
     
-    </>
+    </div>
   )
 };
 

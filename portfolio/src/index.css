@@ -220,3 +220,22 @@ a:hover {
   color: var(--color-neutral-dark);
   background: var(--color-secondary);
 }
+
+
+
+.hidden {
+  opacity: 0;
+  /*filter: blur(5px);*/
+  /*transform: translateX(-5%);*/
+  transition: opacity 1.5s
+}
+.show {
+  opacity: 1;
+  /*filter: blur(0);*/
+  /*transform: translateX(0);*/
+}
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}

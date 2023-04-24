@@ -9,7 +9,7 @@ import './hero.css';
 const Hero = () => {
   
   return (
-    <section id='hero'>
+    <section id='hero' className='hidden'>
 
       <div className="container container-hero">
 

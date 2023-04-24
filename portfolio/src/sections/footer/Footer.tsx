@@ -6,7 +6,7 @@ import './footer.css';
 const Footer = () => {
   
   return (
-    <footer>
+    <footer className='hidden'>
       
       <p>&copy; Mateusz Chalik. Wszelkie prawa zastrzeżone.</p>
 

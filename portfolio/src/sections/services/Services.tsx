@@ -29,7 +29,7 @@ const Services = () => {
   ]
 
   return (
-    <section id='services'>
+    <section id='services' className='hidden'>
 
       <div className="container">
 

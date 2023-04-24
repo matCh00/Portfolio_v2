@@ -29,7 +29,7 @@ const Experience = () => {
   ]
 
   return (
-    <section id='experience'>
+    <section id='experience' className='hidden'>
       
       <div className="container">
 

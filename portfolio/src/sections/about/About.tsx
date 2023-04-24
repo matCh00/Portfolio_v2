@@ -12,7 +12,7 @@ import {CgCodeSlash} from 'react-icons/cg';
 const About = () => {
 
   return (
-    <section id='about'>
+    <section id='about' className='hidden'>
 
       <div className="container">
 

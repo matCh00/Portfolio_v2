@@ -10,7 +10,7 @@ import {BsLinkedin, BsGithub} from 'react-icons/bs';
 const Contact = () => {
   
   return (
-    <section id='contact'>
+    <section id='contact' className='hidden'>
 
       <div className="container">
 
