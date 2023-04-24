@@ -1,5 +1,5 @@
 #portfolio {
-  background: linear-gradient(45deg, var(--color-neutral-darkest), var(--color-neutral-darker), var(--color-neutral-darkest));
+  background: linear-gradient(45deg, var(--color-neutral-darker), var(--color-neutral-dark), var(--color-neutral-darker));
 }
 
 .portfolio-container {
@@ -82,10 +82,6 @@
   }
   .portfolio-content {
     gap: 2rem;
-  }
-
-  .carousel {
-    display: none;
   }
 }
 

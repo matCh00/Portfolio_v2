@@ -12,7 +12,7 @@ import { sd1, sd2, sd3, sd4, sd5 } from '../../assets/SecondBrainAppDashboard';
 
 const Portfolio = () => {
 
-  let mobile = window.matchMedia("(width <= 43rem)").matches;
+  let mobile = window.matchMedia("(width <= 62rem)").matches;
 
   const projects = [
     {
