@@ -20,7 +20,7 @@
     height: 50vh;
   }
   .image-cropper {
-    background: var(--color-neutral-darkest);
+    background: var(--color-neutral-darker);
     border-radius: 2rem;
   }
 }
@@ -31,7 +31,7 @@
     height: 50vh;
   }
   .image-cropper {
-    background: var(--color-neutral-darkest);
+    background: var(--color-neutral-darker);
     border-radius: 2rem;
   }
 }
