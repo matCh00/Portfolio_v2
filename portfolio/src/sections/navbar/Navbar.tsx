@@ -8,8 +8,8 @@ import {BsChatQuote} from 'react-icons/bs';
 const Navbar = () => {
 
   return (
-    <div className='hidden'>
-      <nav className='desktop'>
+    <div>
+      <nav className='desktop hidden'>
 
         <h2>Mateusz Chalik</h2>
 
