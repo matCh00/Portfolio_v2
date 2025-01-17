@@ -47,8 +47,8 @@ const Experience = () => {
                 return (
                   <p key={e.key}>
                     <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
-                    {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
-                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
+                    {/**e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
+                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>*/}
                   </p>
                 )
               })}
@@ -61,8 +61,8 @@ const Experience = () => {
                 return (
                   <p key={e.key}>
                     <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
-                    {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
-                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
+                    {/**e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
+                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>*/}
                   </p>
                 )
               })}
@@ -75,8 +75,8 @@ const Experience = () => {
                 return (
                   <p key={e.key}>
                     <SlGraduation className='clr-secondary'/> {e.key} &nbsp;&nbsp; 
-                    {e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
-                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>}
+                    {/**e.value === 5 ? <FiveStars/> : e.value === 4 ? <FourStars/> : e.value === 3 ?
+                    <ThreeStars/> : e.value === 2 ? <TwoStars/> : <OneStars/>*/}
                   </p>
                 )
               })}

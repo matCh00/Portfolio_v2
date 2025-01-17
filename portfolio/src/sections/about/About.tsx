@@ -11,6 +11,24 @@ import {CgCodeSlash} from 'react-icons/cg';
 
 const About = () => {
 
+  function calculateMonthsFromJuly2022() {
+    const startDate = new Date(2022, 6, 1);
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+      years -= 1;
+      months += 12;
+    }
+
+    if (months === 0) {
+      return `${years} ${(years === 2 || years === 3 || years === 4) ? 'lata' : 'lat'}`;
+    }
+    return `${years} ${(years === 2 || years === 3 || years === 4) ? 'lata' : 'lat'}` + ` i ${months} miesięcy`;
+  }
+
   return (
     <section id='about' className='hidden'>
 
@@ -26,7 +44,7 @@ const About = () => {
           <Card1>
             <div className="about-content-card">
               <BiTimeFive className='clr-secondary'/>
-              <p>9 miesiecy doświadczenia w branży IT na stanowisku frontend developera</p>
+              <p>{calculateMonthsFromJuly2022()} doświadczenia na stanowisku frontend developera</p>
             </div>
           </Card1>
 
@@ -45,7 +63,7 @@ const About = () => {
           <Card1>
             <div className="about-content-card">
               <AiOutlineFundProjectionScreen className='clr-secondary'/>
-              <p>3 projekty komercyjne, praca inżynierska, kilka własnych projektów</p>
+              <p>Wiele projektów komercyjnych oraz własnych</p>
             </div>
           </Card1>
           

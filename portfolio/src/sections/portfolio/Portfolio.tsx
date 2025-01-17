@@ -7,8 +7,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { pc1, pc2, mobile1, mobile2 } from '../../assets/Portfolio_v1';
 import { img1, img2, img3, img4, img5 } from '../../assets/GymApp';
-import { s1, s2, s3, sm1, sm2 } from '../../assets/SecondBrainApp';
-import { sd1, sd2, sd3, sd4, sd5 } from '../../assets/SecondBrainAppDashboard';
+import { img1_18, img2_18, img3_18, img4_18, img5_18, img6_18, img7_18 } from '../../assets/JustTravel18';
+import { img1_10, img2_10, img3_10, img4_10, img5_10, img6_10, img7_10 } from '../../assets/JustTravel10';
 
 const Portfolio = () => {
 
@@ -16,28 +16,28 @@ const Portfolio = () => {
 
   const projects = [
     {
+      titleHtml: '<div class="html-title"> <strong class="clr-secondary">JustTravel</strong> <p>Aplikacja do tworzenia podrózy</p> </div>',
+      technology: 'Angular 18 + TypeScript',
+      href: 'https://github.com/matCh00/JustTravel-Angular18',
+      images: [img1_18, img2_18, img3_18, img4_18, img5_18, img6_18, img7_18],
+      carouselClass: 'portfolio__carousel-desktop',
+      desktop: false
+    },
+    {
+      titleHtml: '<div class="html-title"> <strong class="clr-secondary">JustTravel</strong> <p>Aplikacja do tworzenia podrózy</p> </div>',
+      technology: 'Angular 10 + TypeScript',
+      href: 'https://github.com/matCh00/JustTravel-Angular10',
+      images: [img1_10, img2_10, img3_10, img4_10, img5_10, img6_10, img7_10],
+      carouselClass: 'portfolio__carousel-desktop',
+      desktop: false
+    },
+    {
       titleHtml: '<div class="html-title"> <strong class="clr-secondary">GymApp</strong> <p>Aplikacja mobilna do zarządzania oraz monitorowania treningów</p> </div>',
       technology: 'React Native + TypeScript + Firebase',
       href: 'https://github.com/matCh00/GymApp',
       images: [img1, img2, img3, img4, img5],
       carouselClass: 'portfolio__carousel-mobile',
       desktop: false
-    },
-    {
-      titleHtml: '<div class="html-title"> <strong class="clr-secondary">SecondBrainAppDashboard</strong> <p>Aplikacja webowa do zarządzania notatkami</p> </div>',
-      technology: 'React + TypeScript + PrimeReact + Firebase',
-      href: 'https://github.com/matCh00/SecondBrainAppDashboard',
-      images: [sd1, sd2, sd3, sd4, sd5],
-      carouselClass: 'portfolio__carousel-desktop',
-      desktop: true
-    },
-    {
-      titleHtml: '<div class="html-title"> <strong class="clr-secondary">SecondBrainApp</strong> <p>Aplikacja webowa do przechowywania notatek</p> </div>',
-      technology: 'React + TypeScript + PrimeReact + Firebase',
-      href: 'https://github.com/matCh00/SecondBrainApp',
-      images: [s1, sm2, s2, sm1, s3],
-      carouselClass: 'portfolio__carousel-mobile',
-      desktop: true
     },
     {
       titleHtml: '<div class="html-title"> <strong class="clr-secondary">Portfolio_v1</strong> <p>Responsywna strona internetowa</p> </div>',
