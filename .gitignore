@@ -1,3 +1,12 @@
+### JetBrains ###
+.idea/
+*.iml
+
+### VS Code ###
+.vscode/
+.history/
+
+
 ### Node ###
 logs
 *.log
@@ -6,15 +15,64 @@ package-lock.json
 dist/
 *.tsbuildinfo
 
+
+### .NET ###
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.dll
+*.exe
+*.pdb
+
+### Angular ###
+.angular
+*.ngsummary.json
+*.ngfactory.ts
+
+### Flutter ###
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter_tool
+
+### Dart ###
+.packages
+.dart_tool/
+*.dart_tool/
+
+### Python ###
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
 ### React ###
 build/
 .env
 .env.local
 
-### JetBrains ###
-.idea/
-*.iml
+### React Native ###
+android/
+ios/
+*.xcuserstate
+*.xcodeproj/
+*.xcworkspace/
+*.env
 
-### VS Code ###
-.vscode/
-.history/
+### TypeScript ###
+*.tsbuildinfo
+*.js
+
+### Vue ###
+*.local
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
